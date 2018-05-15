@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspbasic", "aspbasic.csproj", "{F8B775C5-0588-4460-8299-7F5691A147F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspbasic.service", "aspbasic.service\aspbasic.service.csproj", "{877F1E34-3E6F-4128-A8C2-D2C27AB6E89C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8B775C5-0588-4460-8299-7F5691A147F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B775C5-0588-4460-8299-7F5691A147F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B775C5-0588-4460-8299-7F5691A147F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B775C5-0588-4460-8299-7F5691A147F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{877F1E34-3E6F-4128-A8C2-D2C27AB6E89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{877F1E34-3E6F-4128-A8C2-D2C27AB6E89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{877F1E34-3E6F-4128-A8C2-D2C27AB6E89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{877F1E34-3E6F-4128-A8C2-D2C27AB6E89C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

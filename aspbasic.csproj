@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Upload\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Home\Upload.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="aspbasic.Tests\UnitTest1.cs" />
+    <Compile Remove="aspbasic.Tests\obj\Debug\netcoreapp2.0\aspbasic.Tests.Program.cs" />
+    <Compile Remove="aspbasic.Tests\obj\Debug\netcoreapp2.0\aspbasic.Tests.AssemblyInfo.cs" />
+    <Compile Remove="aspbasic.Tests\AspBasicUnitTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="aspbasic.Tests\obj\aspbasic.Tests.csproj.nuget.g.props" />
+    <None Remove="aspbasic.Tests\obj\aspbasic.Tests.csproj.nuget.g.targets" />
+    <None Remove="aspbasic.Tests\obj\project.assets.json" />
+    <None Remove="aspbasic.Tests\obj\aspbasic.Tests.csproj.nuget.cache" />
+    <None Remove="aspbasic.Tests\obj\Debug\netcoreapp2.0\aspbasic.Tests.csproj.CopyComplete" />
+    <None Remove="aspbasic.Tests\obj\Debug\netcoreapp2.0\aspbasic.Tests.csprojResolveAssemblyReference.cache" />
+    <None Remove="aspbasic.Tests\obj\Debug\netcoreapp2.0\aspbasic.Tests.csproj.CoreCompileInputs.cache" />
+    <None Remove="aspbasic.Tests\obj\Debug\netcoreapp2.0\aspbasic.Tests.AssemblyInfoInputs.cache" />
+    <None Remove="aspbasic.Tests\obj\Debug\netcoreapp2.0\aspbasic.Tests.dll" />
+    <None Remove="aspbasic.Tests\obj\Debug\netcoreapp2.0\aspbasic.Tests.pdb" />
+    <None Remove="aspbasic.Tests\bin\Debug\netcoreapp2.0\aspbasic.service.dll" />
+    <None Remove="aspbasic.Tests\bin\Debug\netcoreapp2.0\aspbasic.service.pdb" />
+    <None Remove="aspbasic.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" />
+    <None Remove="aspbasic.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netstandard15.dll" />
+    <None Remove="aspbasic.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll" />
+    <None Remove="aspbasic.Tests\bin\Debug\netcoreapp2.0\aspbasic.Tests.deps.json" />
+    <None Remove="aspbasic.Tests\bin\Debug\netcoreapp2.0\aspbasic.Tests.runtimeconfig.json" />
+    <None Remove="aspbasic.Tests\bin\Debug\netcoreapp2.0\aspbasic.Tests.runtimeconfig.dev.json" />
+    <None Remove="aspbasic.Tests\bin\Debug\netcoreapp2.0\aspbasic.Tests.dll" />
+    <None Remove="aspbasic.Tests\bin\Debug\netcoreapp2.0\aspbasic.Tests.pdb" />
+    <None Remove="aspbasic.Tests\obj\Debug\netcoreapp2.0\aspbasic.Tests.csproj.FileListAbsolute.txt" />
+    <None Remove="aspbasic.Tests\obj\project.assets.json" />
+    <None Remove="aspbasic.Tests\obj\aspbasic.Tests.csproj.nuget.cache" />
+    <None Remove="aspbasic.Tests\obj\aspbasic.Tests.csproj.nuget.cache" />
+  </ItemGroup>
+</Project>

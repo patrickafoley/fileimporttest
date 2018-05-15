@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{F8B775C5-0588-4460-8299-7F5691A147F4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="README.md">
+    <Files>
+      <File FileName="Controllers/UploadController.cs" Line="66" Column="14" />
+      <File FileName="Views/Shared/Error.cshtml" Line="7" Column="1" />
+      <File FileName="Views/Upload/UploadFile.cshtml" Line="15" Column="23" />
+      <File FileName="aspbasic.service/AspBasicService.cs" Line="21" Column="40" />
+      <File FileName="aspbasic.service/ImportResult.cs" Line="13" Column="1" />
+      <File FileName="README.md" Line="5" Column="45" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.aspbasic PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
