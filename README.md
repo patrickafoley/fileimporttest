@@ -30,6 +30,8 @@ docker pull microsoft/mssql-server-linux:2017-latest
 
 #### Create the schema 
 
+Add schema.sql to your database. If the connection string needs to change, please edit aspbasic.service.AspBasicService.connectionString
+
 
 
 ``` 
@@ -37,7 +39,14 @@ dotnet run
 ```
 
 
-##### Questions/Commentary 
+##### Questions/TODO 
 
-MSSql does not have an ARRAY datatype like some other languages and I found it more efficient to create a studyGuidesOrdered table. 
+1. Ideally I would make a studyGuidesOrdered table to join the studyGuides and the Order. 
+I ended up using a string but this makes it difficult to join the data effectively and would cause extra queries.
+1. Unit Tests 
+1. Better Exception Handling 
+1. Externalizing configuration 
+ 
+
+
 

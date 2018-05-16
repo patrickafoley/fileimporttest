@@ -33,3 +33,16 @@
         display: none;
     }
 }
+
+.row {
+    margin: 10px;
+}
+
+form{
+    padding: 10px;
+    width: 90%;
+}
+
+select {
+    margin:5px;
+}

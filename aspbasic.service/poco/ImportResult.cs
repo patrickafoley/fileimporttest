@@ -1,5 +1,5 @@
 ﻿using System;
-namespace aspbasic.service
+namespace aspbasic.service.poco
 {
     public class ImportResult
     {

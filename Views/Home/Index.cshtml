@@ -1,3 +1,47 @@
-﻿<div>
-    <p>Hello!</p>
-</div>
+﻿
+@using aspbasic.service.poco;
+
+@{
+    var orders = (Order[])ViewData["Orders"];
+}
+
+<table class="table">
+
+    <thead>
+        <tr>
+            <th>Customer Id</th>
+            <th>Customer Name</th>
+            <th>Customer Email</th>
+            <th>Study Guides</th>
+            <th>Fulfilled</th>
+            <th>Date Fulfilled</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach(Order @order in @orders) 
+        {
+            <tr>
+                <td>@order.customer.customerId</td>
+                <td>@order.customer.customerName</td>
+                <td>@order.customer.customerEmail</td>
+                <td>TBD</td>
+                <td><input type="checkbox" checked=@order.fulfilled class="fulfilled" value="@order.orderId" @(@order.fulfilled ? "disabled" : "") /></td>
+                <td>@order.dateFulfilled</td>
+           </tr>
+        }
+    </tbody>
+</table>
+
+<script type="text/javascript">
+    window.onload = function() {
+        $('.fulfilled').click(function(e){
+            var orderId = e.target.value; 
+            $.get("/Home/Fulfill/" + orderId).then(function(){
+                $(e.target).attr("disabled", true);
+                window.location.reload(); // ideally this would be an async updated table... 
+            });
+        });
+    };
+</script>
+

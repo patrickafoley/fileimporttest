@@ -6,8 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using System.IO;
 using aspbasic.service;
-
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+using aspbasic.service.poco;
 
 namespace aspbasic.Controllers
 {
@@ -32,9 +31,8 @@ namespace aspbasic.Controllers
         // basic upload, ideally this would be streamed, cleanup temp files and have more error checking
         public async Task<IActionResult> UploadFile(List<IFormFile> files, string fileType)
         {
+            // based on MSDN example
             long size = files.Sum(f => f.Length);
-
-            // full path to file in temp location
             var filePath = Path.GetTempFileName();
 
             foreach (var formFile in files)
