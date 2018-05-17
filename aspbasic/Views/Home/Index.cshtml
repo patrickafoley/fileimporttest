@@ -40,7 +40,7 @@
             $.get("/Home/Fulfill/" + orderId).then(function(){
                 $(e.target).attr("disabled", true);
                 window.location.reload(); // ideally this would be an async updated table... 
-            });
+            }); // TODO this needs an .error condition that does something smart
         });
     };
 </script>

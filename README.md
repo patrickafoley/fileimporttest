@@ -5,7 +5,6 @@ A basic dotnet core app for uploading files and adding info to the database.
 Created with dotnet core, Visual Studio OSX and the `microsoft/mssql-server-linux:2017-latest` docker image 
 
 
-
 # Starting the app:
 
 ## Starting SQL Server Docker image:
@@ -24,8 +23,11 @@ docker pull microsoft/mssql-server-linux:2017-latest
 
 ```
 
+### Opening the app
 
-### Running APP
+The VS solution that is able to run both the unit tests and the app is at fileimportest/fileimportest.sln 
+
+### Setting up and running the app
 
 
 #### Create the schema 
@@ -35,6 +37,7 @@ Add schema.sql to your database. If the connection string needs to change, pleas
 
 
 ``` 
+cd aspbasic
 dotnet run 
 ```
 
@@ -43,9 +46,11 @@ dotnet run
 
 1. Ideally I would make a studyGuidesOrdered table to join the studyGuides and the Order. 
 I ended up using a string but this makes it difficult to join the data effectively and would cause extra queries.
-1. Unit Tests 
+1. More Unit Tests 
 1. Better Exception Handling 
 1. Externalizing configuration 
+
+## further scaffolding and TODO items are through out the code base.
  
 
 
