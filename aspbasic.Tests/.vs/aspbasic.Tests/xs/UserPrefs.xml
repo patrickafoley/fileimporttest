@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{43BF2E31-3809-4EF5-A1D8-BDF1DC37CA9E}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="aspbasic.Tests/UnitTest1.cs">
+    <Files>
+      <File FileName="aspbasic.Tests/UnitTest1.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="aspbasic.Tests" expanded="True">
+            <Node name="aspbasic.Tests" expanded="True">
+              <Node name="UnitTest1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.aspbasic.Tests PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>

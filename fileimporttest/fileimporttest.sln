@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aspbasic", "aspbasic", "{30F73CEC-2FA4-41FE-B958-D49B93B4D4B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aspbasic.Tests", "aspbasic.Tests", "{3116A65F-4434-4681-B96F-9416422656B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspbasic", "..\aspbasic\aspbasic.csproj", "{F8102630-27E6-49F0-89A4-850265978E21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspbasic.Tests", "..\aspbasic.Tests\aspbasic.Tests\aspbasic.Tests.csproj", "{3509D6FA-632B-4162-9E4C-A0CA7327FBBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8102630-27E6-49F0-89A4-850265978E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8102630-27E6-49F0-89A4-850265978E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8102630-27E6-49F0-89A4-850265978E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8102630-27E6-49F0-89A4-850265978E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3509D6FA-632B-4162-9E4C-A0CA7327FBBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3509D6FA-632B-4162-9E4C-A0CA7327FBBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3509D6FA-632B-4162-9E4C-A0CA7327FBBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3509D6FA-632B-4162-9E4C-A0CA7327FBBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8102630-27E6-49F0-89A4-850265978E21} = {30F73CEC-2FA4-41FE-B958-D49B93B4D4B5}
+		{3509D6FA-632B-4162-9E4C-A0CA7327FBBB} = {3116A65F-4434-4681-B96F-9416422656B8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+/Users/paf0/pearson/aspbasic.Tests/aspbasic.Tests/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/paf0/pearson/aspbasic.Tests/aspbasic.Tests/bin/Debug/netcoreapp2.0/xunit.runner.utility.netstandard15.dll
+/Users/paf0/pearson/aspbasic.Tests/aspbasic.Tests/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netstandard15.dll
+/Users/paf0/pearson/aspbasic.Tests/aspbasic.Tests/bin/Debug/netcoreapp2.0/aspbasic.Tests.deps.json
+/Users/paf0/pearson/aspbasic.Tests/aspbasic.Tests/bin/Debug/netcoreapp2.0/aspbasic.Tests.runtimeconfig.json
+/Users/paf0/pearson/aspbasic.Tests/aspbasic.Tests/bin/Debug/netcoreapp2.0/aspbasic.Tests.runtimeconfig.dev.json
+/Users/paf0/pearson/aspbasic.Tests/aspbasic.Tests/bin/Debug/netcoreapp2.0/aspbasic.Tests.dll
+/Users/paf0/pearson/aspbasic.Tests/aspbasic.Tests/bin/Debug/netcoreapp2.0/aspbasic.Tests.pdb
+/Users/paf0/pearson/aspbasic.Tests/aspbasic.Tests/bin/Debug/netcoreapp2.0/aspbasic.dll
+/Users/paf0/pearson/aspbasic.Tests/aspbasic.Tests/bin/Debug/netcoreapp2.0/aspbasic.pdb
+/Users/paf0/pearson/aspbasic.Tests/aspbasic.Tests/obj/Debug/netcoreapp2.0/aspbasic.Tests.csprojResolveAssemblyReference.cache
+/Users/paf0/pearson/aspbasic.Tests/aspbasic.Tests/obj/Debug/netcoreapp2.0/aspbasic.Tests.csproj.CoreCompileInputs.cache
+/Users/paf0/pearson/aspbasic.Tests/aspbasic.Tests/obj/Debug/netcoreapp2.0/aspbasic.Tests.AssemblyInfoInputs.cache
+/Users/paf0/pearson/aspbasic.Tests/aspbasic.Tests/obj/Debug/netcoreapp2.0/aspbasic.Tests.AssemblyInfo.cs
+/Users/paf0/pearson/aspbasic.Tests/aspbasic.Tests/obj/Debug/netcoreapp2.0/aspbasic.Tests.dll
+/Users/paf0/pearson/aspbasic.Tests/aspbasic.Tests/obj/Debug/netcoreapp2.0/aspbasic.Tests.pdb
