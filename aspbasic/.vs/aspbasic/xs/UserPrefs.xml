@@ -4,29 +4,9 @@
       <File FileName="aspbasic.service/ImportOrders.cs" Line="35" Column="18" />
       <File FileName="schema.sql" Line="28" Column="35" />
       <File FileName="aspbasic.service/AspBasicService.cs" Line="49" Column="31" />
-      <File FileName="sample_files/Orders.txt" Line="6" Column="14" />
-      <File FileName="Views/Upload/UploadFile.cshtml" Line="21" Column="11" />
+      <File FileName="sample_files/Orders.txt" Line="6" Column="13" />
+      <File FileName="Views/Upload/UploadFile.cshtml" Line="21" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="aspbasic" expanded="True">
-            <Node name="aspbasic" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="sample_files" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Upload" expanded="True">
-                  <Node name="UploadFile.cshtml" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-            <Node name="aspbasic.service" expanded="True">
-              <Node name="poco" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

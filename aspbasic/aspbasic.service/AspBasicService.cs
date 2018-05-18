@@ -25,7 +25,7 @@ namespace aspbasic.service
         // checks to see if the right headers are used for a file type
         public Boolean IsFileValid(string[] lines, string fileType)
         {
-            if (lines[0].Split("|").SequenceEqual(FileTypes[fileType]))
+            if (lines != null && lines[0].Split("|").SequenceEqual(FileTypes[fileType]))
             {
                 return true;
             }
@@ -55,32 +55,39 @@ namespace aspbasic.service
 
             IImportFile importFile = new ImportOrders();
 
-
-            for(int indx = 1; indx < lines.Length; indx++)
+            if (lines != null)
             {
-                var row = lines[indx];
-                try
+
+                for (int indx = 1; indx < lines.Length; indx++)
                 {
-                   
-                    if (importFile.ImportRow(row, FileTypes[ORDERS]))
+                    var row = lines[indx];
+                    if (row != null)
                     {
-                        imported++;
-                    }
-                    else
-                    {
+                        try
+                        {
+                            if (importFile.ImportRow(row, FileTypes[ORDERS]))
+                            {
+                                imported++;
+                            }
+                            else
+                            {
+                                skipped++;
+                            }
+                        }
+                        catch (Exception sql)
+                        {
+                            // TODO should use proper logging facility here     
+                            Console.WriteLine(sql.ToString());
+                            skipped++;
+                            result.errorText = "Import of row '" + row + "' Failed \nError:\n" + result.errorText + sql.Message; // TODO ideally we would make sense of these errors and provide the user with "Customer Not Found for Order Row <rowText>"
+                        }
+                    }else{
                         skipped++;
                     }
-                }
-                catch (SqlException sql)
-                {
-                    // TODO should use proper logging facility here     
-                    Console.WriteLine(sql.ToString());
-                    skipped++;
-                    result.errorText = "Import of row '" + row + "' Failed \nError:\n" + result.errorText + sql.Message; // TODO ideally we would make sense of these errors and provide the user with "Customer Not Found for Order Row <rowText>"
+
                 }
 
             }
-
             result.skipped = skipped;
             result.imported = imported;
             return result;

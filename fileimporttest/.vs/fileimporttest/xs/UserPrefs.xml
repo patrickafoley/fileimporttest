@@ -1,30 +1,28 @@
 ﻿<Properties StartupConfiguration="{F8102630-27E6-49F0-89A4-850265978E21}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../aspbasic.Tests/aspbasic.Tests/AspBasicServiceTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../aspbasic/sample_files/Orders.txt">
     <Files>
-      <File FileName="../aspbasic.Tests/aspbasic.Tests/AspBasicServiceTest.cs" Line="69" Column="1" />
-      <File FileName="../aspbasic.Tests/aspbasic.Tests/test_files/Orders.txt" Line="7" Column="1" />
+      <File FileName="../aspbasic.Tests/aspbasic.Tests/AspBasicServiceTest.cs" Line="22" Column="34" />
       <File FileName="../aspbasic/aspbasic.service/poco/ImportResult.cs" Line="13" Column="1" />
-      <File FileName="../aspbasic/aspbasic.service/AspBasicService.cs" Line="93" Column="10" />
-      <File FileName="../aspbasic.Tests/aspbasic.Tests/test_files/Orders_MissingData.txt" Line="7" Column="1" />
-      <File FileName="../aspbasic.Tests/aspbasic.Tests/test_files/Orders_BadColumn.txt" Line="7" Column="1" />
-      <File FileName="../aspbasic.Tests/aspbasic.Tests/OrderImportTest.cs" Line="11" Column="9" />
-      <File FileName="../aspbasic/aspbasic.service/ImportOrders.cs" Line="17" Column="39" />
+      <File FileName="../aspbasic.Tests/aspbasic.Tests/OrderImportTest.cs" Line="17" Column="15" />
+      <File FileName="../aspbasic/aspbasic.service/ImportOrders.cs" Line="81" Column="18" />
+      <File FileName="../aspbasic/aspbasic.service/AspBasicService.cs" Line="73" Column="30" />
+      <File FileName="../aspbasic/sample_files/Orders.txt" Line="9" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="fileimporttest" expanded="True">
             <Node name="aspbasic" expanded="True">
-              <Node name="aspbasic" expanded="True">
-                <Node name="aspbasic.service" expanded="True" />
-                <Node name="Views" expanded="True">
-                  <Node name="Upload" expanded="True" />
+              <Node name="aspbasic" expanded="True" selected="True">
+                <Node name="aspbasic.service" expanded="True">
+                  <Node name="poco" expanded="True" />
                 </Node>
+                <Node name="sample_files" expanded="True" />
               </Node>
             </Node>
             <Node name="aspbasic.Tests" expanded="True">
               <Node name="aspbasic.Tests" expanded="True">
-                <Node name="AspBasicServiceTest.cs" selected="True" />
+                <Node name="test_files" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -50,10 +48,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/paf0/pearson/aspbasic/aspbasic.service/AspBasicService.cs" line="30" column="1" />
-      <Breakpoint file="/Users/paf0/pearson/aspbasic/aspbasic.service/AspBasicService.cs" line="28" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

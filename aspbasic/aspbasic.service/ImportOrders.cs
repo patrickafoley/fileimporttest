@@ -73,22 +73,29 @@ namespace aspbasic.service
 
         public bool IsRowValid(string row, string[] columns)
         {
-
-            // make sure the row has the right number of columns 
-            var splitRow = row.Split("|");
-            if((splitRow.Length == columns.Length)){
-                Console.WriteLine("Row has correct number of columns");
-
-                // make sure each of those columns is not null 
-                foreach(var str in splitRow){
-                    if(String.IsNullOrEmpty(str)){
-                        return false; 
+            try
+            {
+                // make sure the row has the right number of columns 
+                var splitRow = row.Split("|");
+                if ((splitRow != null && splitRow.Length == columns.Length))
+                {
+                    // make sure each of those columns is not null 
+                    foreach (var str in splitRow)
+                    {
+                        if (String.IsNullOrEmpty(str))
+                        {
+                            return false;
+                        }
                     }
+
+                    return true;
+
                 }
-
-                return true;
-
-            }else {
+                else
+                {
+                    return false;
+                }
+            }catch (Exception e) {
                 return false; 
             }
         }

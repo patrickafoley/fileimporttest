@@ -3,6 +3,7 @@
 /Users/paf0/pearson/aspbasic/bin/Debug/netcoreapp2.0/aspbasic.runtimeconfig.dev.json
 /Users/paf0/pearson/aspbasic/bin/Debug/netcoreapp2.0/aspbasic.dll
 /Users/paf0/pearson/aspbasic/bin/Debug/netcoreapp2.0/aspbasic.pdb
+/Users/paf0/pearson/aspbasic/obj/Debug/netcoreapp2.0/aspbasic.csprojResolveAssemblyReference.cache
 /Users/paf0/pearson/aspbasic/obj/Debug/netcoreapp2.0/aspbasic.csproj.CoreCompileInputs.cache
 /Users/paf0/pearson/aspbasic/obj/Debug/netcoreapp2.0/aspbasic.AssemblyInfoInputs.cache
 /Users/paf0/pearson/aspbasic/obj/Debug/netcoreapp2.0/aspbasic.AssemblyInfo.cs
